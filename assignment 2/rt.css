@@ -1,8 +1,6 @@
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#shape{
+    width : 200px;
+    height : 200px;
+    background-color : red;
+    position: relative;
 }
