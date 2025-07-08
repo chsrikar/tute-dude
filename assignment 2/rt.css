@@ -4,3 +4,34 @@
     background-color : red;
     position: relative;
 }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: #FEE715;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#reaction-time {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
